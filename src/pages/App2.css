@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 240px;
+  /* border: 1px solid #ccc; */
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+      width: 240px;
+      height: 240px;
+      border-radius: 40%;
+      border: 8px solid rgb(80, 16, 14);
+}
+
+h3{
+      padding-top: 10px;
+      font-size: medium;
+}
