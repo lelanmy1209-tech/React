@@ -1,17 +1,29 @@
-// import "./App.css";
-// import Profile from "./components/Profile";
 
+import { useContext } from "react";
+import "./App.css";
+import AddProduct from "./components/AddProduct";
+import AddUserComponent from "./components/AddUserComponent";
+import { languageContext } from "./context/languageContext";
 
-// import App1 from "./pages/App1";
-// export default function App() {
-//   return <App1 />;
-// }
-
-
-import App2 from "./pages/App2";
 export default function App() {
-  return <App2 />;
+  const {handleChangeLangguage} = useContext(languageContext);
+  return (
+  <>
+    <select onChange={(e) => {
+      handleChangeLangguage(e.target.value);
+    }}>
+      <option value="vi">Tiếng Việt</option>
+      <option value="en">Tiếng Anh</option>
+    </select>
+
+    <button>Change Language</button>
+    <AddUserComponent />
+    <AddProduct />
+  </>
+  );
 }
+
+
 
 
 

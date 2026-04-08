@@ -1,0 +1,31 @@
+*{
+      /* margin: 0;
+      padding: 0; */
+      box-sizing: border-box;
+}
+
+.Timer{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: center;
+}
+.Timer .btn-edit{
+      background-color: lightblue;
+      border-radius: 10%;
+}
+
+.Timer .btn-reset{
+      background-color: yellow;
+      border-radius: 10%;
+}
+
+.Timer .btn-start{
+      background-color: lightgreen;
+      border-radius: 10%;
+}
+
+button:hover{ 
+      background-color: rgb(225, 225, 217);
+      cursor: pointer;;
+}

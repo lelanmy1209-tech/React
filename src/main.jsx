@@ -1,10 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import { languageContext } from "./context/languageContext";
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+
+
+  <languageContextProvider>
     <App />
-  </StrictMode>,
+  </languageContextProvider>
+  // </LanguageContext.Provider>
+  // </StrictMode>,
 )

@@ -1,0 +1,48 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.container {
+      align-items: center;
+      justify-content: center;
+}
+
+form {
+      display: flex;
+      width: 320px;
+      margin: 0 auto;
+      gap: 1.5rem;
+}
+
+input{
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      flex: 1;
+}
+
+button{
+      padding: 12px 24px;
+      border-radius: 4px;
+      background-color: yellow;
+      cursor: pointer;
+      font-size: 1.2rem;
+      margin: auto;
+}
+
+button:hover{
+      background-color: rgb(230, 230, 32);
+}
+
+ul{
+      width: 320px;
+      margin: 20px auto;
+      padding-left: 20px;
+      text-align: left;
+}
+
+li{
+      margin-bottom: 8px;
+}

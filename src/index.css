@@ -222,7 +222,8 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: disc; /* none */
+  padding: 0;
 }
 blockquote,
 q {
